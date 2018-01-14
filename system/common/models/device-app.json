@@ -1,10 +1,24 @@
 {
-  "name": "FileStorage",
-  "base": "Model",
+  "name": "DeviceApp",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuidv4"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {},
   "mixins": {
     "FireLoop": true,
     "TimeStamp": {
@@ -14,7 +28,7 @@
       {
         "method": "stats",
         "endpoint": "/stats",
-        "description": "Statistical information for FileStorage registers.",
+        "description": "Statistical information for DeviceApp registers.",
         "type": "model",
         "count": {
           "on": "createdAt",
@@ -22,10 +36,5 @@
         }
       }
     ]
-  },
-  "properties": {},
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+  }
 }

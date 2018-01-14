@@ -43,5 +43,13 @@
   "FileStorage": {
     "dataSource": "fileStorage1",
     "public": true
+  },
+  "Device": {
+    "dataSource": "mysql1",
+    "public": true
+  },
+  "DeviceApp": {
+    "dataSource": "mysql1",
+    "public": true
   }
 }
