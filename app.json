@@ -1,0 +1,13 @@
+{
+  "name": "Alfred Smart Home Hub System",
+  "description": "Hub/Bridge for Denkan's home system project, Alfred",
+  "repository": "https://github.com/denkan/alfred",
+  "keywords": [
+      "node",
+      "express",
+      "static",
+      "loopback",
+      "fireloop",
+      "realtime"
+   ]
+}
