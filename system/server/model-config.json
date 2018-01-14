@@ -17,7 +17,7 @@
     ]
   },
   "User": {
-    "dataSource": "mysql1",
+    "dataSource": "memory1",
     "public": false
   },
   "AccessToken": {
@@ -35,5 +35,9 @@
   "Role": {
     "dataSource": "mysql1",
     "public": false
+  },
+  "HubUser": {
+    "dataSource": "mysql1",
+    "public": true
   }
 }
