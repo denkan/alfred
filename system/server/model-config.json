@@ -39,5 +39,9 @@
   "HubUser": {
     "dataSource": "mysql1",
     "public": true
+  },
+  "FileStorage": {
+    "dataSource": "fileStorage1",
+    "public": true
   }
 }

@@ -6,5 +6,11 @@
   "mysql1": {
     "name": "mysql1",
     "connector": "mysql"
+  },
+  "fileStorage1": {
+    "name": "fileStorage1",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "../storage"
   }
 }
