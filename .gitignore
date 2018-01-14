@@ -1,0 +1,2 @@
+system/server/datasources.*.json
+!system/server/datasources.SAMPLE.json
