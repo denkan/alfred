@@ -6,6 +6,7 @@
     "validateUpsert": true
   },
   "mixins": {
+    "FindOnlyOwned": true,
     "FireLoop": true,
     "TimeStamp": {
       "required": false
@@ -65,6 +66,13 @@
       "principalId": "$authenticated",
       "permission": "ALLOW",
       "property": "create"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "find"
     }
   ],
   "methods": {}

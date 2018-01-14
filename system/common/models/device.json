@@ -6,6 +6,7 @@
     "validateUpsert": true
   },
   "mixins": {
+    "FindOnlyOwned": true,
     "FireLoop": true,
     "TimeStamp": {
       "required": false
