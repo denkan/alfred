@@ -7,6 +7,7 @@
   },
   "mixins": {
     "FindOnlyOwned": true,
+    "EnsureIdentity": true,
     "FireLoop": true,
     "TimeStamp": {
       "required": false
@@ -68,6 +69,13 @@
       "principalId": "$authenticated",
       "permission": "ALLOW",
       "property": "find"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "patchOrCreate"
     }
   ],
   "methods": {}
